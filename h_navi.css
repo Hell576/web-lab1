@@ -1,0 +1,28 @@
+.header {
+	/*overflow: auto;*/
+	position: fixed; /*после него нужен отступ*/
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 44px;
+	background: #5f5f5f;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+	height: 100%;
+}
+
+.header a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 5px;
+}
+
+.menu li {
+	list-style-type: none;
+}
